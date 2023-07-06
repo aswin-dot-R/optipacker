@@ -1,4 +1,4 @@
-# Distributors Pallet Optimization
+# Distributor's Pallet Optimization
 ![Figure Pallet](examples/inputs/figure_pallet_0.png)
 
 The Distributors Pallet Optimization project aims to solve the three-dimensional pallet-packing problem faced by distributors. The project utilizes a Python implementation of a volume optimization solver to efficiently pack boxes onto pallets, minimizing wasted space and maximizing utilization.
