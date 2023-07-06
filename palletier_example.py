@@ -16,7 +16,7 @@ def main():
 
 
 def initialize_from_file(test_case):
-    test_filename = "/home/ashie/palletier/examples/inputs/{}.txt".format(test_case)
+    test_filename = "examples/inputs/{}.txt".format(test_case)
     with open(test_filename, 'r', encoding='utf-8') as input_file:
         pallets = []
         boxes = []
