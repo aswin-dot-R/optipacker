@@ -86,15 +86,15 @@ class Solver:
             colors = plt.cm.tab20(np.linspace(0, 1, packed.num_boxes))
 
             dims = packed.pallet.orientation
-            print('Packed Pallet #{0} with utilization of {1}'.format(
+            print('Packed Pallet{0} with utilization of {1}'.format(
                 packed.idx, packed.utilization))
-            print('Using Pallet #{0} with dims ({1}, {2}, {3})'.format(
+            print('Using Pallet{0} with dimensions ({1}, {2}, {3})'.format(
                 packed.idx, (*dims)))
             print('With {0} boxes:'.format(packed.num_boxes))
 
             for i, box in enumerate(packed.boxes):
                 # Print box details
-                print('Box #{0} with dims ({1}, {2}, {3}) located at ({4}, {5}, {6})'.format(
+                print('Box{0} with dimensions ({1}, {2}, {3}) located at ({4}, {5}, {6})'.format(
                     box.idx, (*box.orientation), (*box.pos)))
 
                 # Get the position and dimensions of the box
